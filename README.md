@@ -1,38 +1,46 @@
-# vue-admin-dashboard
+# 🚀 Vue.js Admin Dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern, responsive **Admin Dashboard** built with **Vue.js 3**, **Vite**, and **Tailwind CSS**, inspired by [TailAdmin.com](https://tailadmin.com).  
+This project focuses on clean UI architecture, reusable components, and maintainable code — perfect for integrating with any backend like **Laravel**, **Node.js**, or **Django**.
 
-## Recommended IDE Setup
+![Dashboard Preview](public/images/preview.png)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## ✨ Features
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- 🎨 Built with **Vue.js 3 + Composition API**
+- ⚡ Powered by **Vite** for fast development
+- 💅 Styled with **Tailwind CSS v4**
+- 🧩 Reusable UI Components (Sidebar, Navbar, Cards, Modals)
+- 🌙 **Dark/Light Theme** support
+- 📱 Fully responsive layout
+- 🧠 Simple structure, easy to extend
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🏗️ Tech Stack
 
-## Project Setup
+| Technology                              | Purpose            |
+| --------------------------------------- | ------------------ |
+| [Vue.js 3](https://vuejs.org)           | Frontend framework |
+| [Vite](https://vitejs.dev)              | Build tool         |
+| [Tailwind CSS](https://tailwindcss.com) | Styling            |
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+## 🧑‍💻 Getting Started
 
-```sh
-npm run dev
-```
+```bash
+# Clone repo
+git clone https://github.com/yourusername/vue-admin-dashboard.git
 
-### Compile and Minify for Production
+# Go into project folder
+cd vue-admin-dashboard
 
-```sh
-npm run build
+# Install dependencies
+bun install
+
+# Run development server
+bun run dev
 ```
